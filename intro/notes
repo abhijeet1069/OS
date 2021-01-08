@@ -1,0 +1,33 @@
+Dual mode of operation(MS-DOS didn't have dual mode. So, a faulty user program could wipe out entire OS)
+	System mode
+	Kernel mode
+
+System Call(Computer program requests a service from the kernel of OS)
+	Process Control
+		end, abort
+		load, execute
+		create process, terminate process
+		get process attributes, set process attributes
+		wait for time
+		wait event, signal event
+		allocate and free memory
+	File management
+		create file, delete file
+		open,close
+		read, write, reposition
+		get file attributes, set file attributes
+	Device Management
+		request device, release device
+		read, write, reposition
+		get device attributes, set device attributes
+		logically attach or detach devices
+	Information maintenance
+		get time or date, set time or date
+		get system data, set system data
+		get process file, or device attributes
+		setprocess, file, or device attributes
+	Communications
+		create, delete communication connection
+		send, recieve messages
+		transfer status connection
+		attach or deach remote devices
