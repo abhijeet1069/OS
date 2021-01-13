@@ -10,9 +10,9 @@ int main(){
 		fprintf(stderr, "Fork Failed");
 		return 1;
 	}
-	else if(pid == 0)
+	else if(pid == 0) 	//fork() call return 0 to child
 		execlp("/bin/ls","ls",NULL);
-	else{
+	else{ 				//returns PID of child to parent
 		wait(NULL);
 		printf("Child complete\n");
 	}
